@@ -2,7 +2,7 @@
 
 # gempoolscode
 
-cleos -u http://eospush.tokenpocket.pro system buyram wd4rpecihuv5 chickenpools -k 200 -p wd4rpecihuv5@active
+cleos -u http://eospush.tokenpocket.pro system buyram wd4rpecihuv5 chickenpools -k 400 -p wd4rpecihuv5@active
 
 cleos -u http://eospush.tokenpocket.pro set account permission chickenpools active \
 '{"threshold":1,"keys":[{"key":"EOS5VmcpYPi9PwEmokMi6iizo9fnTBQZo9vXM9TpGitb2CCTCgcnw","weight":1}],"accounts":[{"permission":{"actor":"chickenpools","permission":"eosio.code"},"weight":1}]}' \

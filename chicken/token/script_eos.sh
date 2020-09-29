@@ -14,8 +14,8 @@ cleos -u http://eospush.tokenpocket.pro push action chickentoken open \
  '{"owner":"chickentoken", "symbol":"4,CHK", "ram_payer":"chickentoken"}' \
  -p chickentoken
 
- cleos -u http://eospush.tokenpocket.pro set account permission gemtokencode owner permission.json -p gemtokencode@owner
+ cleos -u http://eospush.tokenpocket.pro set account permission chickentoken owner permission.json -p chickentoken@owner
 
- cleos -u http://eospush.tokenpocket.pro set account permission gemtokencode active \
-'{"threshold":1,"keys":[],"accounts":[{"permission":{"actor":"gemtokencode","permission":"eosio.code"},"weight":1}]}' \
- -p gemtokencode@active
+ cleos -u http://eospush.tokenpocket.pro set account permission chickentoken active \
+'{"threshold":1,"keys":[],"accounts":[{"permission":{"actor":"chickentoken","permission":"eosio.code"},"weight":1}]}' \
+ -p chickentoken@active
