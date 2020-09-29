@@ -57,5 +57,5 @@ Compare the hash:
 `shasum -a 256 chicken/chkpool/chkpool.wasm` of `chickenpools.hash`  
 `shasum -a 256 chicken/token/token.wasm` of `chickentoken.hash`
 
-- Pool Hash: f35c11106d5987fd97a6d0bcb5ee765bc76fb1c089a29dab31efec40522774d4
-- Token Hash: f6a2939074d69fc194d4b7b5a4d2c24e2766046ddeaa58b63ddfd579a0193623
+- Pool Hash: 31e95c85718b798454fb2c1f3ff5dd97caa8bfd78f05132ecead416cc868604d
+- Token Hash: a9dffc7588044ddab590f70ddb777bef50280eb36db491fc8601a0f6b5b67f83
