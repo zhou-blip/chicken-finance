@@ -54,7 +54,7 @@ cd chicken/token
 ```
 
 Compare the hash:
-`shasum -a 256 chicken/chkpool/chkpool.wasm` of `chickenpools.hash` 
+`shasum -a 256 chicken/chkpool/chkpool.wasm` of `chickenpools.hash`  
 `shasum -a 256 chicken/token/token.wasm` of `chickentoken.hash`
 
 - Pool Hash: f35c11106d5987fd97a6d0bcb5ee765bc76fb1c089a29dab31efec40522774d4
