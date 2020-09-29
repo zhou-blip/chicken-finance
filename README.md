@@ -53,7 +53,7 @@ cd chicken/token
 ./build.sh
 ```
 
-Compare the hash:
+Compare the hash:  
 `shasum -a 256 chicken/chkpool/chkpool.wasm` of `chickenpools.hash`  
 `shasum -a 256 chicken/token/token.wasm` of `chickentoken.hash`
 
